@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swahib | IT Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER + NAVIGATION -->
+  <header id="home">
+    <h1>Swahib's Portfolio</h1>
+    <p class="tagline">IT student looking for an internship in software and systems</p>
+    <a class="btn" href="cv.pdf" download>Download CV</a>
+  </header>
+
+  <!-- STICKY NAVIGATION -->
+  <nav id="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-box">
+        <div class="avatar" role="img" aria-label="Profile image placeholder">S</div>
+        <div>
+          <h3>Swahib</h3>
+          <p class="meta">Diploma in Information Technology, Zetech University</p>
+          <p>
+            I am a second-year IT student who enjoys understanding how computers,
+            databases and networks work together. I like turning ideas into small
+            working programs and I am keen to learn from a real team. I am looking
+            for an internship where I can apply my skills and grow as a developer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3>HTML</h3>
+          <p>Structuring semantic, accessible web pages.</p>
+        </li>
+        <li class="card">
+          <h3>CSS</h3>
+          <p>Layouts with Flexbox, colours, spacing and hover effects.</p>
+        </li>
+        <li class="card">
+          <h3>Database Management</h3>
+          <p>Designing tables and writing SQL queries.</p>
+        </li>
+        <li class="card">
+          <h3>Computer Networking</h3>
+          <p>IP addressing, network devices and basic setup.</p>
+        </li>
+        <li class="card">
+          <h3>C#</h3>
+          <p>Learning object-oriented programming fundamentals.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card project">
+          <h3>Student Records Database</h3>
+          <p>A database to store students, courses and marks, with queries that
+             produce class lists and results reports.</p>
+          <p class="tech"><strong>Technologies:</strong> SQL, MySQL</p>
+        </article>
+        <article class="card project">
+          <h3>Small Office Network Design</h3>
+          <p>A planned network for a small office, including IP addressing,
+             switch and router layout, and a printable diagram.</p>
+          <p class="tech"><strong>Technologies:</strong> Cisco Packet Tracer, IPv4</p>
+        </article>
+        <article class="card project">
+          <h3>Simple 3D Game (planned)</h3>
+          <p>A beginner game where the player collects items in a 3D scene,
+             built to practise C# scripting.</p>
+          <p class="tech"><strong>Technologies:</strong> C#, Unity</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:swahibssenoga54@gmail.com">swahibssenoga54@gmail.com</a></p>
+      <p>Phone: <a href="tel:+254702376978">0702376978</a></p>
+
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Swahib. Built with HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
